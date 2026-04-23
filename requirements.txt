@@ -1,0 +1,14 @@
+# Minimum-Curvature Raceline Generator — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+numpy>=1.23
+scipy>=1.9
+opencv-python>=4.6
+scikit-image>=0.19
+matplotlib>=3.6
+PyYAML>=6.0
+
+# QP solver — install at least ONE of the following:
+quadprog>=0.1.11          # fast, C-based, no extra deps  (recommended)
+# osqp>=0.6.2             # alternative if quadprog fails on your platform
+# protobuf>=4.0           # only needed for direct pbstream parsing without ROS

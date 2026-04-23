@@ -1,0 +1,6 @@
+image: /home/vaish/raceline_ws/maps/maps/test/my_map.pgm
+resolution: 0.050000
+origin: [-3.680753, -5.651429, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
